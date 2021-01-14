@@ -45,7 +45,7 @@ jobs:
          run: |
            ls
            cd source
-           curl $debian > Dockerfile
+           curl $arch > Dockerfile
            docker container prune --force
            docker build . -t shell-bot
        - name: running Docker
