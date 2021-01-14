@@ -1,7 +1,6 @@
 name: setting up environment
 
-on: 
-    workflow_dispatch:
+on: [push]
     
 env:
  username: PrajwalS3
