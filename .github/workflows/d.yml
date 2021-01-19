@@ -49,7 +49,7 @@ jobs:
            docker container prune --force
            docker build . -t shell-bot
        - name: running Docker
-         timeout-minutes: 340
+         timeout-minutes: 350
          continue-on-error: true
          run: |
            docker run shell-bot
